@@ -4,7 +4,7 @@ This is a one-dimensional data fitting algorithm, which can be used when you wan
 Before using this program, make sure you have installed SciPy v1.1.0.
 
 And there is something you need to change in from scipy.optimize.curve_fit. Because I add a new return function of it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! This file in path:your python path\lib\site-packages\scipy\optimize\minpack.py. 
-Or, with some python IDE, you can just use the its function called 'go to defination'.  
+Or, with some python IDE, you can just use its function called 'go to defination'.  
 
 At line 513, I add a new variable named my_return, and = False.
 
@@ -19,4 +19,5 @@ From line 796 to 797, if my_return: return popt,cost
 
 That's all what you need to change.
 Now, let's start our journey.
+
 
