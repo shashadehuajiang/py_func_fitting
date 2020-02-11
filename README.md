@@ -27,7 +27,7 @@ Now, let's start our journey.
 
 
 At the end of mainv1.py, there is a class called Evolution_f(xdata,ydata,function_number=100,episode = 100,alpha = 0.1,hintfunction='').
-xdata and ydata are the main input (the data in), and the function_number and episode are the paras of optimization algorithm, like genetic algorithm. alpha controls the loss function: loss = alpha*function_length + (1-alpha)*msecost. 
+xdata and ydata are the main input (the data in), and the function_number and episode are the paras of optimization algorithm, like genetic algorithm. alpha controls the loss function: loss = alpha*function_length + (1-alpha)*msecost. hintfunction is a function that you think can be used.
 
 The test() function at the end of mainv1.py is an example to show you how to use the program.
 ```
@@ -49,8 +49,8 @@ Now let's start the program.
 ```
 python ./mainv1.py
 ```
-Here is final return:
+Here is the final return:
 ```
 (((log((b+x)))+c)*a)
 ```
-It's cool,right?
+It's kind of cool,right?
