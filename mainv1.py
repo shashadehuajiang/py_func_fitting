@@ -698,12 +698,11 @@ def test():
     #y = x
     y = 10*np.log(x+0.1)+2.3
     y_data = y + np.random.normal(loc=0,scale=0.05,size=100)
+    
     # '.'标明画散点图，每个散点的形状是个圆
     plt.plot(x, y_data, '.')
      
-    # 画模型的图，plot函数默认画连线图
-    #plt.figure('model')
-    plt.plot(x, y)
+
     
     #return
     #xdata,ydata,function_number=100,episode = 100,alpha = 0.1,hintfunction=''
