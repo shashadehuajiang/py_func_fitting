@@ -24,3 +24,6 @@ Now, let's start our journey.
 At the end of mainv1.py, there is a function called Evolution_f(xdata,ydata,function_number=100,episode = 100,alpha = 0.1,hintfunction='').
 xdata and ydata are the main input (the data in), and the function_number and episode are the paras of optimization algorithm, like genetic algorithm. alpha controls the loss function: loss = alpha*function_length + (1-alpha)*msecost. 
 
+```
+test
+```
